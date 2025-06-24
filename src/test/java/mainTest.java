@@ -32,7 +32,8 @@ public class mainTest {
       //Update profile
       driver.findElement(By.xpath("//div[@class='card mt15']//div//span[@class='edit icon'][normalize-space()='editOneTheme']")).click();
       driver.findElement(By.xpath("//textarea[@id='resumeHeadlineTxt']")).clear();
-      driver.findElement(By.xpath("//textarea[@id='resumeHeadlineTxt']")).sendKeys("Skilled Automation and Manual Test Engineer | Expertise in Selenium, Rest Assured, API Testing, and End-to-End Software Quality Assurance.");
+      driver.findElement(By.xpath("//textarea[@id='resumeHeadlineTxt']")).sendKeys("Experience in developing, implementinh & deploying a Java Microservice application utilizing AWS stack\n" +
+              "including S3, Lambda, SQS, ECS, DynamoDB, and RabbitMQ, MongoDB, Kibana, Kafka, Mysql.");
       driver.findElement(By.xpath("//button[normalize-space()='Save']")).click();
 
    }
